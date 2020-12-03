@@ -2,9 +2,6 @@ module github.com/elastic/harp
 
 go 1.15
 
-// Snyk finding
-replace github.com/satori/go.uuid => github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
-
 require (
 	cloud.google.com/go/storage v1.12.0
 	github.com/Azure/azure-sdk-for-go v48.0.0+incompatible
@@ -48,7 +45,7 @@ require (
 	github.com/onsi/gomega v1.10.3
 	github.com/pelletier/go-toml v1.8.1
 	github.com/pkg/errors v0.9.1
-	github.com/satori/go.uuid v0.0.0-00010101000000-000000000000 // indirect
+	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b // indirect
 	github.com/sethvargo/go-diceware v0.2.0
 	github.com/sethvargo/go-password v0.2.0
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
